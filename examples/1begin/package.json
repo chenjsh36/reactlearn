@@ -1,0 +1,24 @@
+{
+  "name": "1begin",
+  "version": "1.0.0",
+  "description": "example of react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjsh36/reactlearn.git"
+  },
+  "keywords": [
+    "react",
+    "gulp",
+    "web"
+  ],
+  "author": "chenjsh36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjsh36/reactlearn/issues"
+  },
+  "homepage": "https://github.com/chenjsh36/reactlearn#readme"
+}
