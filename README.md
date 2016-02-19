@@ -36,3 +36,5 @@ react推荐一组件的方式去思考ui构成
         dangerouslySetInnerHTML = {this.rawMarkup()}
     ```
 * 关于组件间数据的交互，父组件通过`设置属性名`让子组件通过this.props来获取相对应的值，而且父组件也可以`将自己的函数`写入供子组件调用，通过这种方式实现组件间的交流
+
+#END
