@@ -31,7 +31,6 @@ react推荐一组件的方式去思考ui构成
           意思是父元素可以向子元素标签添加属性名和值，而子元素就可以通过this.props.<属性明>去获取相应的值
 
 * 使用mark来转化评论为html，但是由于react本身的`保护机制`，格式为html的文本依旧会以文本的形式输出，这个时候就需要走下后门
-    
     ```
         rawMarkup: function() { var rawMarkup = marked(this.props.children.toString(), {sanitize: true}); return { __html: rawMarkup }; },
         dangerouslySetInnerHTML = {this.rawMarkup()}
