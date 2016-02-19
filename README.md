@@ -13,9 +13,11 @@ web开发中频繁或者复杂的dom操作是性能瓶颈产生的原因，react
 react推荐一组件的方式去思考ui构成
 而且react并不依赖于js库如jquery，而且对象必须为原生的对象，不过现在的queryselector已经可以方便的查询各种类，因此不依赖于jquery也是可以的！当然一些好的方法的封装也可以参考jquery
 
-安全的html标签
+###安全的html标签
 由于我们把html嵌入在js中，而js中的html实际上也不是真正的标签，而是要通过react去最终转化为真正的html标签，而转化的过程react已经考虑了安全的问题，因此在js中内嵌html标签是安全的，受保护的
 
+###只是一个view层
+react并不像express提供一个完整的web服务，它专注于如何高效地处理DOM（理念参考前三个观点），因此从mvc的角度来说它只是一个view层，但实际上react自己并不赞同web的MVC开发流程。
 
 ##函数的意义
 ---
